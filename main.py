@@ -1,9 +1,10 @@
 # Completa las validaciones y llama a la función
 
 import sys
-from solucion import [NOMBRE_DE_LA_FUNCION]
+from solucion import triangulo_simetrico
 
-def main():
+
+def ():
     """
     data: lista de líneas leídas desde la entrada estándar o ingresadas por el usuario
           donde cada elemento de la lista es un string    
@@ -17,7 +18,7 @@ def main():
     else:
         data = sys.stdin.read().strip().splitlines()
 
-    # Validar que se recibieron dos líneas
+    # Validar que se recibieron dos líneas"Error: La altura debe ser un numero entero""Error: La altura debe ser un numero entero"
     if len(data) < 2:
         print("Error: Se esperan 2 lineas de entrada (altura, caracter)")
         return
@@ -35,6 +36,7 @@ def main():
         print("Error: La altura debe ser un numero entero")
 
     # TODO: llamar a la función triangulo_simetrico con los parámetros m y s
+    triangulo_simetrico(m, s)
 
 if __name__ == "__main__":
     main()
