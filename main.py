@@ -4,7 +4,7 @@ import sys
 from solucion import triangulo_simetrico
 
 
-def ():
+def main():
     """
     data: lista de líneas leídas desde la entrada estándar o ingresadas por el usuario
           donde cada elemento de la lista es un string    
